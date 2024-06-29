@@ -6,7 +6,10 @@ import java.util.PriorityQueue;
 
 
 // https://leetcode.com/problems/k-closest-points-to-origin/description/
+// Time Complexity: O(nlog(k))
+// Space Complexity: O(k)
 public class KClosestPointsToOrigin {
+
     public int[][] kClosest(int[][] points, int k) {
         if (points.length == 1) {
             return points;
