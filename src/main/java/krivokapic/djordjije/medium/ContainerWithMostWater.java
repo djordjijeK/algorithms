@@ -20,7 +20,7 @@ public class ContainerWithMostWater {
             if (height[left] <= height[right]) {
                 left += 1;
             } else {
-                right -=1;
+                right -= 1;
             }
         }
 

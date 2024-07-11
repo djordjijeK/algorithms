@@ -27,8 +27,12 @@ public class ThreeSum {
                 if (nums[i] + nums[left] + nums[right] == 0) {
                     result.add(List.of(nums[i], nums[left], nums[right]));
 
-                    while(left < right && nums[left] == nums[left + 1]) left += 1;
-                    while(left < right && nums[right] == nums[right - 1]) right -= 1;
+                    while (left < right && nums[left] == nums[left + 1]) {
+                        left += 1;
+                    }
+                    while (left < right && nums[right] == nums[right - 1]) {
+                        right -= 1;
+                    }
 
                     left++;
                     right--;

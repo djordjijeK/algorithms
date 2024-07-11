@@ -14,11 +14,12 @@ public class InsertInterval {
 
         int[][] result = new int[list.size()][2];
         for (int i = 0; i < list.size(); i++) {
-            result[i] = new int[] {list.get(i).get(0), list.get(i).get(1)};
+            result[i] = new int[]{list.get(i).get(0), list.get(i).get(1)};
         }
 
         return result;
     }
+
 
     List<List<Integer>> mergeIntervals(int[][] intervals, int[] newInterval) {
         List<List<Integer>> list = new ArrayList<>();
