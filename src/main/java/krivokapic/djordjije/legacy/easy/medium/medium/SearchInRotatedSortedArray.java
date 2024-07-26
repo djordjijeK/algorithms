@@ -1,4 +1,4 @@
-package krivokapic.djordjije.medium;
+package krivokapic.djordjije.legacy.easy.medium.medium;
 
 
 // https://leetcode.com/problems/search-in-rotated-sorted-array/description/

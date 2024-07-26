@@ -1,4 +1,4 @@
-package krivokapic.djordjije.easy;
+package krivokapic.djordjije.legacy.easy;
 
 
 // https://leetcode.com/problems/search-insert-position/description/

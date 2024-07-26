@@ -1,4 +1,4 @@
-package krivokapic.djordjije.easy;
+package krivokapic.djordjije.legacy.easy;
 
 import java.util.HashMap;
 import java.util.Map;

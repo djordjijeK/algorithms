@@ -1,4 +1,4 @@
-package krivokapic.djordjije.medium;
+package krivokapic.djordjije.legacy.easy.medium.medium;
 
 
 // https://leetcode.com/problems/product-of-array-except-self/description/

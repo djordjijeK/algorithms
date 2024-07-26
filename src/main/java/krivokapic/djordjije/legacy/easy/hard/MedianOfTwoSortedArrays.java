@@ -1,4 +1,4 @@
-package krivokapic.djordjije.hard;
+package krivokapic.djordjije.legacy.easy.hard;
 
 
 // https://leetcode.com/problems/median-of-two-sorted-arrays/description/

@@ -1,4 +1,4 @@
-package krivokapic.djordjije.hard;
+package krivokapic.djordjije.legacy.easy.hard;
 
 
 import java.util.ArrayDeque;
@@ -8,7 +8,7 @@ import java.util.ArrayDeque;
 // Time Complexity: O(n)
 // Space Complexity: O(n - k + 1)
 public class SlidingWindowMaximum {
-    
+
     public int[] maxSlidingWindow(int[] nums, int k) {
         int left = 0;
         int right = 0;

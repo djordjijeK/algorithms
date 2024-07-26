@@ -1,4 +1,4 @@
-package krivokapic.djordjije.medium;
+package krivokapic.djordjije.legacy.easy.medium.medium;
 
 
 import java.util.HashSet;

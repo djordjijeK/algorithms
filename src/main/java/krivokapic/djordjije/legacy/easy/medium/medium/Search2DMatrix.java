@@ -1,4 +1,4 @@
-package krivokapic.djordjije.medium;
+package krivokapic.djordjije.legacy.easy.medium.medium;
 
 
 // https://leetcode.com/problems/search-a-2d-matrix/description/

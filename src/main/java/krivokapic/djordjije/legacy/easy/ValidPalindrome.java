@@ -1,4 +1,4 @@
-package krivokapic.djordjije.easy;
+package krivokapic.djordjije.legacy.easy;
 
 
 // https://leetcode.com/problems/valid-palindrome/description/
@@ -11,7 +11,7 @@ public class ValidPalindrome {
 
         int left = 0;
         int right = input.length() - 1;
-        
+
         while (left < right) {
             if (input.charAt(left) != input.charAt(right)) {
                 return false;

@@ -184,8 +184,6 @@ public class UnionFindTest {
 
         assertEquals(1, unionFind.components());
         assertEquals(1000, unionFind.componentSize("Item0"));
-
-        System.out.println(unionFind.getRank());
     }
 
 
