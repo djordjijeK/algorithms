@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
 
 
-// https://leetcode.com/problems/two-sum/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class TwoSum {
-
+    // https://leetcode.com/problems/two-sum/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> residuals = new HashMap<>();
 
@@ -22,5 +21,4 @@ public class TwoSum {
 
         return null;
     }
-
 }

@@ -1,4 +1,4 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.arrays;
 
 
 import java.util.ArrayList;
@@ -7,11 +7,10 @@ import java.util.List;
 import java.util.Map;
 
 
-// https://leetcode.com/problems/group-anagrams/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class GroupAnagrams {
-
+    // https://leetcode.com/problems/group-anagrams/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> anagramsGrouped = new HashMap<>();
 
@@ -40,5 +39,4 @@ public class GroupAnagrams {
 
         return anagramsGrouped.values().stream().toList();
     }
-
 }

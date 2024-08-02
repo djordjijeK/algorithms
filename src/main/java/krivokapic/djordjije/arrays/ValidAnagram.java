@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
 
 
-// https://leetcode.com/problems/valid-anagram/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class ValidAnagram {
-
+    // https://leetcode.com/problems/valid-anagram/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
@@ -24,10 +23,9 @@ public class ValidAnagram {
                 return false;
             }
 
-            map.put(s.charAt(index), map.get(s.charAt(index)) - 1);
+            map.put(t.charAt(index), map.get(t.charAt(index)) - 1);
         }
 
         return true;
     }
-
 }

@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.arrays;
 
 import java.util.HashSet;
 import java.util.Set;
 
 
-// https://leetcode.com/problems/contains-duplicate/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class ContainsDuplicate {
-
+    // https://leetcode.com/problems/contains-duplicate/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> data = new HashSet<>();
 
@@ -22,5 +21,4 @@ public class ContainsDuplicate {
 
         return false;
     }
-
 }

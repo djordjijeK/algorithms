@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.arrays;
 
 
-// https://leetcode.com/problems/product-of-array-except-self/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class ProductOfArrayExceptSelf {
-
+    // https://leetcode.com/problems/product-of-array-except-self/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int[] productExceptSelf(int[] nums) {
         int[] prefixProduct = new int[nums.length];
         int[] suffixProduct = new int[nums.length];
@@ -24,5 +23,4 @@ public class ProductOfArrayExceptSelf {
 
         return nums;
     }
-
 }
