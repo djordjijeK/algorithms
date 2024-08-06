@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.arrays;
 
 import java.util.HashSet;
 import java.util.Set;
 
 
-// https://leetcode.com/problems/longest-consecutive-sequence/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class LongestConsecutiveSequence {
-
+    // https://leetcode.com/problems/longest-consecutive-sequence/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int longestConsecutive(int[] nums) {
         if (nums.length == 0) {
             return 0;
@@ -39,5 +38,4 @@ public class LongestConsecutiveSequence {
 
         return result;
     }
-
 }

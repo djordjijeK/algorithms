@@ -1,11 +1,9 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.binarysearch;
 
-
-// https://leetcode.com/problems/search-in-rotated-sorted-array/description/
-// Time Complexity: O(log(n))
-// Space Complexity: O(1)
 public class SearchInRotatedSortedArray {
-
+    // https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+    // Time Complexity: O(log n)
+    // Space Complexity: O(1)
     public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
@@ -34,5 +32,4 @@ public class SearchInRotatedSortedArray {
 
         return -1;
     }
-
 }

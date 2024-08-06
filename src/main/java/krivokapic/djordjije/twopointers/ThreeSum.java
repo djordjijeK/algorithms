@@ -1,15 +1,14 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.twopointers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 
-// https://leetcode.com/problems/3sum/description/
-// Time Complexity: O(n*log(n))
-// Space Complexity: O(n)
 public class ThreeSum {
-
+    // https://leetcode.com/problems/3sum/description/
+    // Time Complexity: O(nlog(n))
+    // Space Complexity: O(n)
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
 

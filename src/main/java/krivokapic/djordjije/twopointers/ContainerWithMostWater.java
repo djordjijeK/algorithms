@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.twopointers;
 
 
-// https://leetcode.com/problems/container-with-most-water/description/
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 public class ContainerWithMostWater {
-
+    // https://leetcode.com/problems/container-with-most-water/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public int maxArea(int[] height) {
         int left = 0;
         int right = height.length - 1;
@@ -26,5 +25,4 @@ public class ContainerWithMostWater {
 
         return area;
     }
-
 }

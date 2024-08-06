@@ -1,5 +1,4 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
-
+package krivokapic.djordjije.binarysearch;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,9 +6,9 @@ import java.util.List;
 import java.util.Map;
 
 
-// https://leetcode.com/problems/time-based-key-value-store/description/
 public class TimeBasedKeyValueStore {
 
+    // https://leetcode.com/problems/time-based-key-value-store/description/
     static class TimeMap {
         private final Map<String, List<TimeValue>> timeMap;
 

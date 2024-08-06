@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.binarysearch;
 
 
-// https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
-// Time Complexity: O(log(n))
-// Space Complexity: O(1)
 public class FindMinimumInRotatedSortedArray {
-
+    // https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/
+    // Time Complexity: O(log n)
+    // Space Complexity: O(1)
     public int findMin(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
@@ -22,5 +21,4 @@ public class FindMinimumInRotatedSortedArray {
 
         return nums[left];
     }
-
 }

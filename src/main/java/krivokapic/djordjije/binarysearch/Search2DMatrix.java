@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.binarysearch;
 
 
-// https://leetcode.com/problems/search-a-2d-matrix/description/
-// Time Complexity: O(log(m*n))
-// Space Complexity: O(1)
 public class Search2DMatrix {
-
+    // https://leetcode.com/problems/search-a-2d-matrix/description/
+    // Time Complexity: O(log(m * n))
+    // Space Complexity: O(1)
     public boolean searchMatrix(int[][] matrix, int target) {
         int left = 0;
         int right = matrix.length - 1;
@@ -49,5 +48,4 @@ public class Search2DMatrix {
 
         return false;
     }
-
 }

@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy.hard;
+package krivokapic.djordjije.binarysearch;
 
 
-// https://leetcode.com/problems/median-of-two-sorted-arrays/description/
-// Time Complexity: O(log(min(n,m))
-// Space Complexity: O(1)
 public class MedianOfTwoSortedArrays {
-
+    // https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+    // Time Complexity: O(log(min(n,m))
+    // Space Complexity: O(1)
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         // swap partitions so that first partition always contains fewer elements compared to second
         int[] firstPartition = nums1.length > nums2.length ? nums2 : nums1;
@@ -43,5 +42,4 @@ public class MedianOfTwoSortedArrays {
             }
         }
     }
-
 }

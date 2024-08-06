@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.twopointers;
 
 
-// https://leetcode.com/problems/valid-palindrome/description/
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 public class ValidPalindrome {
-
+    // https://leetcode.com/problems/valid-palindrome/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public boolean isPalindrome(String s) {
         String input = s.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 
@@ -23,5 +22,4 @@ public class ValidPalindrome {
 
         return true;
     }
-
 }
