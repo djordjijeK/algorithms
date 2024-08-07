@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.twopointers;
 
 
-// https://leetcode.com/problems/squares-of-a-sorted-array/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class SquaresOfASortedArray {
-
+    // https://leetcode.com/problems/squares-of-a-sorted-array/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int[] sortedSquares(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
@@ -28,5 +27,4 @@ public class SquaresOfASortedArray {
 
         return result;
     }
-
 }

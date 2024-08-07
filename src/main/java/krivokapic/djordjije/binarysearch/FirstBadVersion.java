@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.binarysearch;
 
 
-// https://leetcode.com/problems/first-bad-version/description/
-// Time Complexity: O(log(n))
-// Space Complexity: O(1)
 public class FirstBadVersion {
-
+    // https://leetcode.com/problems/first-bad-version/description/
+    // Time Complexity: O(log n)
+    // Space Complexity: O(1)
     public int firstBadVersion(int n) {
         int left = 1;
         int right = n;
@@ -29,5 +28,4 @@ public class FirstBadVersion {
     boolean isBadVersion(int version) {
         return true;
     }
-
 }

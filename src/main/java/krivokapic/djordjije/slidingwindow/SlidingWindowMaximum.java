@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy.hard;
+package krivokapic.djordjije.slidingwindow;
 
 
 import java.util.ArrayDeque;
 
 
-// https://leetcode.com/problems/sliding-window-maximum/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n - k + 1)
 public class SlidingWindowMaximum {
-
+    // https://leetcode.com/problems/sliding-window-maximum/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(k)
     public int[] maxSlidingWindow(int[] nums, int k) {
         int left = 0;
         int right = 0;
@@ -38,5 +37,4 @@ public class SlidingWindowMaximum {
 
         return result;
     }
-
 }

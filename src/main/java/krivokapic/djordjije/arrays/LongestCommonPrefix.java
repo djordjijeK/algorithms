@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.arrays;
 
 
-// https://leetcode.com/problems/longest-common-prefix/description/
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 public class LongestCommonPrefix {
-
+    // https://leetcode.com/problems/longest-common-prefix/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 1) {
             return strs[0];

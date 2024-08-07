@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.binarysearch;
 
 
-// https://leetcode.com/problems/search-insert-position/description/
-// Time Complexity: O(log(n))
-// Space Complexity: O(1)
 public class SearchInsertPosition {
-
+    // https://leetcode.com/problems/search-insert-position/description/
+    // Time Complexity: O(log n)
+    // Space Complexity: O(1)
     public int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
@@ -25,5 +24,4 @@ public class SearchInsertPosition {
 
         return left;
     }
-
 }

@@ -1,4 +1,4 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.legacy;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.legacy;
 
 
 // https://leetcode.com/problems/longest-palindromic-substring/description/

@@ -1,15 +1,13 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
-
+package krivokapic.djordjije.slidingwindow;
 
 import java.util.HashSet;
 import java.util.Set;
 
 
-// https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class LongestSubstringWithoutRepeatingCharacters {
-
+    // https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int lengthOfLongestSubstring(String s) {
         int left = 0;
         int right = 0;
@@ -32,5 +30,4 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         return Math.max(longest, characters.size());
     }
-
 }

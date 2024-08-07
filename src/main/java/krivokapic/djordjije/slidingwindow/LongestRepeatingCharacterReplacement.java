@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
+package krivokapic.djordjije.slidingwindow;
 
 
-// https://leetcode.com/problems/longest-repeating-character-replacement/description/
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 public class LongestRepeatingCharacterReplacement {
-
+    // https://leetcode.com/problems/longest-repeating-character-replacement/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public int characterReplacement(String s, int k) {
         int left = 0;
         int right = 0;
@@ -50,5 +49,4 @@ public class LongestRepeatingCharacterReplacement {
 
         return maxFrequency;
     }
-
 }

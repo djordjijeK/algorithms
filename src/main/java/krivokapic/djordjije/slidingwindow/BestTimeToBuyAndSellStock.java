@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.slidingwindow;
 
 
-// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 public class BestTimeToBuyAndSellStock {
-
+    // https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public int maxProfit(int[] prices) {
         if (prices.length == 1) {
             return 0;
@@ -27,5 +26,4 @@ public class BestTimeToBuyAndSellStock {
 
         return profit;
     }
-
 }

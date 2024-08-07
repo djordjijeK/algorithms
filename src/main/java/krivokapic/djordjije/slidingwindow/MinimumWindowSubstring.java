@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy.hard;
+package krivokapic.djordjije.slidingwindow;
 
 import java.util.HashMap;
 import java.util.Map;
 
 
-// https://leetcode.com/problems/minimum-window-substring/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class MinimumWindowSubstring {
-
+    // https://leetcode.com/problems/minimum-window-substring/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public String minWindow(String s, String t) {
         if (t.isEmpty()) {
             return "";
@@ -75,5 +74,4 @@ public class MinimumWindowSubstring {
 
         return resultRight != Integer.MAX_VALUE - 1 ? s.substring(resultLeft, resultRight + 1) : "";
     }
-
 }

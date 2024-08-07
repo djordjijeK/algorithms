@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
 
 
-// https://leetcode.com/problems/longest-palindrome/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class LongestPalindrome {
-
+    // https://leetcode.com/problems/longest-palindrome/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int longestPalindrome(String s) {
         int result = 0;
         Map<Character, Integer> characterIntegerMap = new HashMap<>();
@@ -30,5 +29,4 @@ public class LongestPalindrome {
 
         return result;
     }
-
 }

@@ -1,14 +1,13 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
 
 
-// https://leetcode.com/problems/majority-element/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class MajorityElement {
-
+    // https://leetcode.com/problems/majority-element/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> counters = new HashMap<>();
 

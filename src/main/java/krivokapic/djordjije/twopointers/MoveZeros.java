@@ -1,11 +1,10 @@
-package krivokapic.djordjije.legacy.easy;
+package krivokapic.djordjije.twopointers;
 
 
-// https://leetcode.com/problems/move-zeroes/description/
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 public class MoveZeros {
-
+    // https://leetcode.com/problems/move-zeroes/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public void moveZeroes(int[] nums) {
         int left = 0;
         int right = 0;
@@ -27,5 +26,4 @@ public class MoveZeros {
             }
         }
     }
-
 }

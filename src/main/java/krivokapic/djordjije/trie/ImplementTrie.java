@@ -1,5 +1,4 @@
-package krivokapic.djordjije.legacy.easy.medium.medium;
-
+package krivokapic.djordjije.trie;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +6,6 @@ import java.util.Map;
 
 // https://leetcode.com/problems/implement-trie-prefix-tree/description/
 public class ImplementTrie {
-
     class Trie {
         private final TrieNode root;
 
