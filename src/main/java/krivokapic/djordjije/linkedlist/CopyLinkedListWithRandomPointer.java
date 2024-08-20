@@ -32,7 +32,7 @@ public class CopyLinkedListWithRandomPointer {
     }
 
 
-    public class Node {
+    static class Node {
         int val;
         Node next;
         Node random;
