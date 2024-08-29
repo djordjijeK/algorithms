@@ -1,23 +1,20 @@
 package krivokapic.djordjije.structures;
 
 
-import java.util.HashMap;
 import java.util.Map;
+import java.util.HashMap;
 import java.util.Optional;
 
 
 public class UnionFind<T> {
-
     private final Map<T, T> parent;
-
-    private final Map<T, Integer> rank;
-
+    private final Map<T, Integer> size;
     private int numberOfComponents;
 
 
     public UnionFind() {
         this.parent = new HashMap<>();
-        this.rank = new HashMap<>();
+        this.size = new HashMap<>();
     }
 
 
@@ -28,7 +25,7 @@ public class UnionFind<T> {
         }
 
         this.parent.put(item, item);
-        this.rank.put(item, 1);
+        this.size.put(item, 1);
 
         numberOfComponents += 1;
 
@@ -66,15 +63,15 @@ public class UnionFind<T> {
             return;
         }
 
-        int rank1 = this.rank.get(root1);
-        int rank2 = this.rank.get(root2);
+        int rank1 = this.size.get(root1);
+        int rank2 = this.size.get(root2);
 
         if (rank1 >= rank2) {
             this.parent.put(root2, root1);
-            this.rank.put(root1, rank1 + rank2);
+            this.size.put(root1, rank1 + rank2);
         } else {
             this.parent.put(root1, root2);
-            this.rank.put(root2, rank1 + rank2);
+            this.size.put(root2, rank1 + rank2);
         }
 
         numberOfComponents--;
@@ -101,7 +98,7 @@ public class UnionFind<T> {
             return -1;
         }
 
-        return this.rank.get(root);
+        return this.size.get(root);
     }
 
 
