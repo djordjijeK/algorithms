@@ -5,10 +5,9 @@ import java.util.List;
 
 
 public class WordSearchII {
-
     // https://leetcode.com/problems/word-search-ii/description/
     // Time Complexity: O(n * m * 4 ^ length of the longest word)
-    // Space Complexity: O(number of characters in all words)
+    // Space Complexity: O(n * length of the longest word)
     public List<String> findWords(char[][] board, String[] words) {
         List<String> result = new ArrayList<>();
         TrieNode root = buildTrie(words);

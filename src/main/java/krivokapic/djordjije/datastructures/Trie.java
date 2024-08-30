@@ -1,4 +1,4 @@
-package krivokapic.djordjije.structures;
+package krivokapic.djordjije.datastructures;
 
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package structures;
 
-import krivokapic.djordjije.structures.Trie;
+import krivokapic.djordjije.datastructures.Trie;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 public class TrieTest {
-
     private Trie trie;
 
 
@@ -95,7 +94,7 @@ public class TrieTest {
 
         assertTrue(trie.wordExists("apple"));
     }
-    
+
 
     @Test
     void insertEmptyString() {
@@ -113,5 +112,4 @@ public class TrieTest {
         assertTrue(trie.wordExists("Apple"));
         assertFalse(trie.wordExists("apple"));
     }
-
 }
