@@ -7,8 +7,8 @@ import java.util.Set;
 
 public class DeleteNodesFromLinkedListPresentInArray {
     // https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/
-    // Time Complexity: O(n)
-    // Space Complexity: O(n)
+    // Time Complexity: O(n + m)
+    // Space Complexity: O(m)
     public ListNode modifiedList(int[] nums, ListNode head) {
         ListNode dummy = new ListNode();
         dummy.next = head;

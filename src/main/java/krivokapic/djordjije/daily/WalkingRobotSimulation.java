@@ -6,8 +6,8 @@ import java.util.Set;
 
 public class WalkingRobotSimulation {
     // https://leetcode.com/problems/walking-robot-simulation/description/
-    // Time Complexity: O(sum(commands))
-    // Space Complexity: O(obstacles)
+    // Time Complexity: O(n + m)
+    // Space Complexity: O(n)
     public int robotSim(int[] commands, int[][] obstacles) {
         int[][] DIRECTIONS = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
 
