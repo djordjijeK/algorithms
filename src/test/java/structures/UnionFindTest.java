@@ -1,6 +1,6 @@
 package structures;
 
-import training.datastructures.UnionFind;
+import core.datastructures.UnionFind;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

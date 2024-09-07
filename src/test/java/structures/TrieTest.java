@@ -1,6 +1,6 @@
 package structures;
 
-import training.datastructures.Trie;
+import core.datastructures.Trie;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
