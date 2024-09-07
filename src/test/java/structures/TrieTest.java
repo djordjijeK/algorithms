@@ -1,6 +1,6 @@
 package structures;
 
-import krivokapic.djordjije.datastructures.Trie;
+import training.datastructures.Trie;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,6 +1,6 @@
 package structures;
 
-import krivokapic.djordjije.datastructures.UnionFind;
+import training.datastructures.UnionFind;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
