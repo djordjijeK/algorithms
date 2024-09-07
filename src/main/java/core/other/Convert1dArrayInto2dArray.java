@@ -1,4 +1,4 @@
-package core.daily;
+package core.other;
 
 public class Convert1dArrayInto2dArray {
     // https://leetcode.com/problems/convert-1d-array-into-2d-array/description/

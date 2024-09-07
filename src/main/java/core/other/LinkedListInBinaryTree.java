@@ -1,4 +1,4 @@
-package core.daily;
+package core.other;
 
 public class LinkedListInBinaryTree {
     // https://leetcode.com/problems/linked-list-in-binary-tree/

@@ -1,4 +1,4 @@
-package core.daily;
+package core.other;
 
 public class SumOfDigitsOfStringAfterConvert {
     // https://leetcode.com/problems/sum-of-digits-of-string-after-convert/description/

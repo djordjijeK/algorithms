@@ -1,4 +1,4 @@
-package core.daily;
+package core.other;
 
 import java.util.Comparator;
 import java.util.HashMap;

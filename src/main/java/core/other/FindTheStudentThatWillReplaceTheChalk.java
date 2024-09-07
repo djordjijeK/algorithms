@@ -1,4 +1,4 @@
-package core.daily;
+package core.other;
 
 public class FindTheStudentThatWillReplaceTheChalk {
     // https://leetcode.com/problems/find-the-student-that-will-replace-the-chalk/description/
