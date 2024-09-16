@@ -54,10 +54,4 @@ public class MinimumTimeDifference {
 
         return Math.min(minimumTimeDifference, 1440 - leftPointer + firstPointer);
     }
-
-
-    public static void main(String[] args) {
-        MinimumTimeDifference minimumTimeDifference = new MinimumTimeDifference();
-        minimumTimeDifference.findMinDifference(List.of("23:59", "00:00"));
-    }
 }
