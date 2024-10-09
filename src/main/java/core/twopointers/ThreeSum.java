@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ThreeSum {
     // https://leetcode.com/problems/3sum/description/
-    // Time Complexity: O(nlog(n))
+    // Time Complexity: O(n^2)
     // Space Complexity: O(n)
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();

@@ -4,11 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-// https://leetcode.com/problems/insert-interval/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class InsertInterval {
-
+    // https://leetcode.com/problems/insert-interval/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<List<Integer>> list = mergeIntervals(intervals, newInterval);
 
