@@ -1,11 +1,10 @@
 package core.other;
 
 
-// https://leetcode.com/problems/sort-colors/description/
-// Time Complexity: O(n)
-// Space Complexity: O(1)
 public class SortColors {
-
+    // https://leetcode.com/problems/sort-colors/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(1)
     public void sortColors(int[] nums) {
         int reds = 0;
         int whites = 0;
@@ -32,5 +31,4 @@ public class SortColors {
             nums[index++] = 2;
         }
     }
-
 }

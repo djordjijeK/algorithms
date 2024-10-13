@@ -5,11 +5,10 @@ import java.util.Comparator;
 import java.util.Stack;
 
 
-// https://leetcode.com/problems/merge-intervals/description/
-// Time Complexity: O(n)
-// Space Complexity: O(n)
 public class MergeIntervals {
-
+    // https://leetcode.com/problems/merge-intervals/description/
+    // Time Complexity: O(n)
+    // Space Complexity: O(n)
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, Comparator.comparingInt(x -> x[0]));
 
@@ -44,5 +43,4 @@ public class MergeIntervals {
 
         return new int[][]{intervalFirst, intervalSecond};
     }
-
 }

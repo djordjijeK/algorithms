@@ -42,5 +42,4 @@ public class InsertInterval {
         list.add(List.of(newInterval[0], newInterval[1]));
         return list;
     }
-
 }
