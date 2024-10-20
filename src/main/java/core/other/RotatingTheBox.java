@@ -1,4 +1,4 @@
-package _2024.october;
+package core.other;
 
 public class RotatingTheBox {
     // https://leetcode.com/problems/rotating-the-box/

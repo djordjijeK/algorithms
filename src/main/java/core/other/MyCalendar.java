@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 import java.util.LinkedList;
 import java.util.List;

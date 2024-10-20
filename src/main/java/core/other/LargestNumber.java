@@ -1,27 +1,29 @@
 package core.other;
 
-
 import java.util.Arrays;
-import java.util.stream.Collectors;
 
 
-// https://leetcode.com/problems/largest-number/description/
-// Time Complexity: O(n*log(n))
-// Space Complexity: O(n)
 public class LargestNumber {
-
+    // https://leetcode.com/problems/largest-number/
+    // Time Complexity: O(n log(n))
+    // Space Complexity: O(n)
     public String largestNumber(int[] nums) {
-        if (Arrays.stream(nums).allMatch(num -> num == 0)) {
+        String[] strings = new String[nums.length];
+        for (int i = 0; i < strings.length; i++) {
+            strings[i] = String.valueOf(nums[i]);
+        }
+
+        Arrays.sort(strings, (a, b) -> (a + b).compareTo(b + a));
+
+        if (strings[0].equals("0")) {
             return "0";
         }
 
-        return Arrays.stream(nums).mapToObj(String::valueOf).sorted((o1, o2) -> {
-            if ((o1 + o2).compareTo(o2 + o1) < 0) {
-                return -1;
-            } else {
-                return 1;
-            }
-        }).collect(Collectors.joining(""));
-    }
+        StringBuilder largestNumber = new StringBuilder();
+        for (String str : strings) {
+            largestNumber.append(str);
+        }
 
+        return largestNumber.toString();
+    }
 }

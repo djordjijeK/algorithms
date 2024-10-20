@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 public class InsertGreatestCommonDivisorsInLinkedList {
     // https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/

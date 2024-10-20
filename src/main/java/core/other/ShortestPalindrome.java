@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 public class ShortestPalindrome {
     // https://leetcode.com/problems/shortest-palindrome/

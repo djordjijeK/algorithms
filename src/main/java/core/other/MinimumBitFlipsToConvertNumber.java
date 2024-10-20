@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 public class MinimumBitFlipsToConvertNumber {
     // https://leetcode.com/problems/minimum-bit-flips-to-convert-number/

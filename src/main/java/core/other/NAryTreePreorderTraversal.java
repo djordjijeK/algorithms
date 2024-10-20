@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 import java.util.ArrayList;
 import java.util.List;

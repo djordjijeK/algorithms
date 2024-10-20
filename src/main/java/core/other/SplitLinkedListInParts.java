@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 public class SplitLinkedListInParts {
     // https://leetcode.com/problems/split-linked-list-in-parts/description/

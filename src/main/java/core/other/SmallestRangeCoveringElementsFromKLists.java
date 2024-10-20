@@ -1,4 +1,4 @@
-package _2024.october;
+package core.other;
 
 import java.util.Comparator;
 import java.util.List;

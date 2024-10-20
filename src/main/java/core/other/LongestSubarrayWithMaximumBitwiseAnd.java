@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 public class LongestSubarrayWithMaximumBitwiseAnd {
     // https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/

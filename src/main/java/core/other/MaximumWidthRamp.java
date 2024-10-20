@@ -1,4 +1,4 @@
-package _2024.october;
+package core.other;
 
 public class MaximumWidthRamp {
     // https://leetcode.com/problems/maximum-width-ramp/

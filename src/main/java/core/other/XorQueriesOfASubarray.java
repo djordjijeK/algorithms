@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 public class XorQueriesOfASubarray {
     // https://leetcode.com/problems/xor-queries-of-a-subarray/

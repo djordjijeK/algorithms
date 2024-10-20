@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 public class KthSmallestInLexicographicalOrder {
     // https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/

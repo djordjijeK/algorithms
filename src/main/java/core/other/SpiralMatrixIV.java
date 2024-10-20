@@ -1,4 +1,4 @@
-package _2024.september;
+package core.other;
 
 import java.util.Arrays;
 
@@ -17,10 +17,10 @@ public class SpiralMatrixIV {
         int column = 0;
         int currentDirection = 0;
         int[][] DIRECTIONS = new int[][]{
-            {0, 1},
-            {1, 0},
-            {0, -1},
-            {-1, 0}
+                {0, 1},
+                {1, 0},
+                {0, -1},
+                {-1, 0}
         };
 
         while (head != null) {
