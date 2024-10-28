@@ -1,5 +1,6 @@
 package stack;
 
+
 public class RemovingStarsFromAString {
     /*
          // Time Complexity: O(n), n - input string length

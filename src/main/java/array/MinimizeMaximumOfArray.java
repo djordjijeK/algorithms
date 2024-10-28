@@ -1,5 +1,6 @@
 package array;
 
+
 public class MinimizeMaximumOfArray {
     // https://leetcode.com/problems/minimize-maximum-of-array/
     // Time Complexity: O(n), n - number of array elements
