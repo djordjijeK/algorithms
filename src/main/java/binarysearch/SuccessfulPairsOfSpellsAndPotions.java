@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class SuccessfulPairsOfSpellsAndPotions {
     // https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
-    // Time Complexity: O(s * log(p) + p * log(p)), where p is points and s is spells array
+    // Time Complexity: O(slog(p) + plog(p)), where p is points and s is spells array
     // Space Complexity: O(1)
     public int[] successfulPairs(int[] spells, int[] potions, long success) {
         // Sort potions array in ascending order
