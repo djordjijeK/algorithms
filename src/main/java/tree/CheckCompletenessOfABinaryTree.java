@@ -1,5 +1,7 @@
 package tree;
 
+import tree.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -8,8 +10,8 @@ public class CheckCompletenessOfABinaryTree {
     // https://leetcode.com/problems/check-completeness-of-a-binary-tree/
     // Time Complexity: O(n)
     // Space Complexity: O(n)
-    public boolean isCompleteTree(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<>();
+    public boolean isCompleteTree(tree.TreeNode root) {
+        Queue<tree.TreeNode> queue = new LinkedList<>();
         queue.add(root);
 
         while (!queue.isEmpty()) {

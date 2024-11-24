@@ -15,7 +15,6 @@ public class NumberOfEnclaves {
                     if (dfs(grid, i, j, localEnclaves)) {
                         enclaves += localEnclaves[0];
                     }
-                    ;
 
                     System.out.println(localEnclaves[0]);
                 }
